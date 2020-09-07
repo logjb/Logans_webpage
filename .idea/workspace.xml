@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f18552bd-c822-49a9-b6d7-44b16be45c31" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1gy9R9O9RxxVl1OQwrVJt0ucryr" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RunManager">
+    <configuration name="HTML_cheatsheet.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/webpage/HTML_cheatsheet.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.HTML_cheatsheet.html" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f18552bd-c822-49a9-b6d7-44b16be45c31" name="Default Changelist" comment="" />
+      <created>1599075955949</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1599075955949</updated>
+      <workItem from="1599075957862" duration="6843000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1379" height="201" key="GridCell.Tab.0.bottom" timestamp="1599310363041">
+      <screen x="0" y="23" width="1440" height="827" />
+    </state>
+    <state width="1379" height="201" key="GridCell.Tab.0.bottom/0.23.1440.827@0.23.1440.827" timestamp="1599310363041" />
+    <state width="1379" height="201" key="GridCell.Tab.0.center" timestamp="1599310363022">
+      <screen x="0" y="23" width="1440" height="827" />
+    </state>
+    <state width="1379" height="201" key="GridCell.Tab.0.center/0.23.1440.827@0.23.1440.827" timestamp="1599310363022" />
+    <state width="1379" height="201" key="GridCell.Tab.0.left" timestamp="1599310363020">
+      <screen x="0" y="23" width="1440" height="827" />
+    </state>
+    <state width="1379" height="201" key="GridCell.Tab.0.left/0.23.1440.827@0.23.1440.827" timestamp="1599310363020" />
+    <state width="1379" height="201" key="GridCell.Tab.0.right" timestamp="1599310363040">
+      <screen x="0" y="23" width="1440" height="827" />
+    </state>
+    <state width="1379" height="201" key="GridCell.Tab.0.right/0.23.1440.827@0.23.1440.827" timestamp="1599310363040" />
+  </component>
+</project>

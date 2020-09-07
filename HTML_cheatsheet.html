@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!--This gives the browser instructions on how to control the page's dimensions and scaling.
+
+  The width=device-width part sets the width of the page to follow the screen-width of the device (which will vary depending on the device).
+
+  The initial-scale=1.0 part sets the initial zoom level when the page is first loaded by the browser.
+  -->
+  <!--
+  Define the character set used:
+<meta charset="UTF-8">
+Define keywords for search engines:
+<meta name="keywords" content="HTML, CSS, JavaScript">
+Define a description of your web page:
+<meta name="description" content="Free Web tutorials">
+Define the author of a page:
+<meta name="author" content="John Doe">
+Refresh document every 30 seconds:
+<meta http-equiv="refresh" content="30">
+Setting the viewport to make your website look good on all devices:
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  -->
+
+
+<!--
+  <base href="https://www.w3schools.com/" target="_blank">
+  Since we have specified a base URL in the head section, the browser will look for the image at "https://www.w3schools.com/images/stickman.gif".
+  Notice that the link opens in a new window, even if it has no target="_blank" attribute. This is because the target attribute of the base element is set to "_blank".
+   -->
+    <link rel="stylesheet" href="CSS_cheatsheet.css">
+  <title>Logans webpage</title>
+
+</head>
+<body style="background-color:powderblue;">
+
+<h1>My First Heading</h1>
+<h2 style="font-size:20px;">Heading 1</h2>
+<p style="color:#ff0000;">My first paragraph.</p>
+<a href="#C4">Jump to Chapter 4</a>
+
+<a href="https://www.w3schools.com">This is a link</a>s
+<hr>
+<img src="w3schools.jpg" alt="W3Schools.com" width="104" height="142" alt="this is an alternate message">
+<hr>
+<!-- preserves the format of the stuff rather than auto filling -->
+<pre>
+  My Bonnie lies over the ocean.
+
+  My Bonnie lies over the sea.
+
+  My Bonnie lies over the ocean.
+
+  Oh, bring back my Bonnie to me.
+</pre>
+
+<h1 style="background-color:powderblue;">This <del>is</del> a heading</h1>
+<p style="background-color:tomato;">This is a paragraph.</p>
+
+<h1 style="border:2px solid DodgerBlue;">Hello World</h1>
+
+<h1 style="background-color:rgb(238, 130, 238);">rgb(238, 130, 238)</h1>
+
+
+I THINK THE TARGET=_BLANK IS WHATS MESSING WITH IT<a href="https://www.w3schools.com/" target="_blank">Visit W3Schools!</a>
+
+<p id="C4">If target="_blank", the link will open in a new browser window or tab. <br>
+  _self - Default. Opens the document in the same window/tab as it was clicked <br>
+  _blank - Opens the document in a new window or tab <br>
+  _parent - Opens the document in the parent frame <br>
+  _top - Opens the document in the full body of the window <br></p>
+
+<button onclick="document.location='default.asp'">HTML Tutorial</button>
+
+<a href="mailto:someone@example.com">Send email</a>
+
+<button onclick="document.location='default.asp'">HTML Tutorial</button>
+
+<img src="img_girl.jpg" alt="Girl in a jacket" width="500" height="600">
+<img src="/images/html5.gif" alt="HTML5 Icon" style="width:128px;height:128px;">
+
+
+has a map that is interactable
+<img src="workplace.jpg" alt="Workplace" usemap="#workmap" width="400" height="379">
+
+<map name="workmap">
+  <area shape="rect" coords="34,44,270,350" alt="Computer" href="computer.htm">
+  <area shape="rect" coords="290,172,333,250" alt="Phone" href="phone.htm">
+  <area shape="circle" coords="337,300,44" alt="Cup of coffee" href="coffee.htm">
+</map>
+
+<table style="width:100%" id="t01">
+  <tr>
+    <th>Firstname</th>
+    <th>Lastname</th>
+    <th>Age</th>
+  </tr>
+  <tr>
+    <td>Jill</td>
+    <td>Smith</td>
+    <td>50</td>
+  </tr>
+  <tr>
+    <td>Eve</td>
+    <td>Jackson</td>
+    <td>94</td>
+  </tr>
+  <tr>
+    <td>John</td>
+    <td>Doe</td>
+    <td>80</td>
+  </tr>
+</table>
+
+<dl>
+  <dt>Coffee</dt>
+  <dd>- black hot drink</dd>
+  <dt>Milk</dt>
+  <dd>- white cold drink</dd>
+</dl>
+
+<ul>
+  <li><a href="#home">Home</a></li>
+  <li><a href="#news">News</a></li>
+  <li><a href="#contact">Contact</a></li>
+  <li><a href="#about">About</a></li>
+</ul>
+
+<div class="city">
+  <h2>London</h2>
+  <p>London is the capital of England.</p>
+</div>
+
+<div class="city">
+  <h2>Paris</h2>
+  <p>Paris is the capital of France.</p>
+</div>
+
+<div class="city">
+  <h2>Tokyo</h2>
+  <p>Tokyo is the capital of Japan.</p>
+</div>
+
+
+<iframe src="demo_iframe.htm" name="iframe_a" height="300px" width="100%" title="Iframe Example"></iframe>
+
+<a href="https://www.w3schools.com" target="iframe_a">W3Schools.com</a>
+
+
+<h1>My First JavaScript</h1>
+
+<p id="demo">JavaScript can change the style of an HTML element.</p>
+
+<script>
+  function myFunction() {
+    document.getElementById("demo").style.fontSize = "25px";
+    document.getElementById("demo").style.color = "red";
+    document.getElementById("demo").style.backgroundColor = "yellow";
+  }
+</script>
+
+<button type="button" onclick="myFunction()">Click Me!</button>
+</body>
+</html>
